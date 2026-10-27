@@ -24,10 +24,10 @@ python main.py
 Esto abrirá la interfaz de PySide6. Los *sliders* envían datagramas UDP automáticamente al puerto `5005` de tu red local en formato `ID,Roll,Pitch`.
 
 ### 2. Preparar el Entorno Visual (Unity)
-1. Abre Unity Hub y añade el proyecto seleccionando la carpeta `UnityServer`.
-2. Abre la escena principal que contiene el `NetworkManager` y los modelos del brazo.
+1. Abre Unity Hub y añade el proyecto seleccionando la carpeta `ArmIMU_Workshop`.
+2. Abre la escena principal que contiene el `NetworkManager` (IMUDenavitHartenberg.cs) y los modelos del brazo.
 3. Presiona el botón de **Play**.
-4. Al mover los *sliders* en la ventana de Python, verás la actualización cinemática en tiempo real en Unity.
+4. Ejecuta `main.py`. Al mover los *sliders* en la ventana de Python, verás la actualización cinemática en tiempo real en Unity.
 
 ## 📚 Citas y Agradecimientos Académicos
 
