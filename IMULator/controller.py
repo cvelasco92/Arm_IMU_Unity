@@ -1,4 +1,3 @@
-import json
 import socket
 from PySide6.QtCore import QObject, Slot
 from model import SensorModel
